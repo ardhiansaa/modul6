@@ -1,0 +1,47 @@
+/* index.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd; /* Border for the container */
+  background-color: #f9f9f9; /* Background color for the container */
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.active {
+  border-bottom: 2px solid #333; /* Style for active link */
+}
